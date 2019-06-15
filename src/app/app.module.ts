@@ -28,6 +28,7 @@ import { WeddingsComponent } from './weddings/weddings.component';
 import { ThaiWeddingsComponent } from './weddings/thai-weddings/thai-weddings.component';
 import { WesternsWeddingsComponent } from './weddings/westerns-weddings/westerns-weddings.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

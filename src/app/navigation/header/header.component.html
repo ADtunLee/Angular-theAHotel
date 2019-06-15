@@ -1,10 +1,13 @@
 <mat-toolbar color="primary">
   <div>
-    <button mat-icon-button>
+    <button mat-icon-button (click)="onToggleOpenSidenav()">
       <mat-icon>menu</mat-icon>
     </button>
   </div>
-  <div>
-    <p>LOGO</p>
+  <div class="logo-container">
+    <div fxLayout="column" fxLayoutAlign="center center">
+        <img class="logo" src="assets/images/theahotel_logo.png" alt="">
+    </div>
+    
   </div>
 </mat-toolbar>
